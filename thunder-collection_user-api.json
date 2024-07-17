@@ -1,0 +1,83 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "user-api",
+    "collectionId": "01c0d320-a464-4247-95bf-8425a19317c2",
+    "dateExported": "2024-07-17T04:08:40.823Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d9e87d51-92ae-4e38-a50f-0c4ec4e8c28d",
+            "colId": "01c0d320-a464-4247-95bf-8425a19317c2",
+            "containerId": "",
+            "name": "Register",
+            "url": "http://localhost:3000/api/users/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-07-17T03:57:35.387Z",
+            "modified": "2024-07-17T04:07:49.089Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "admin"
+                    },
+                    {
+                        "name": "email",
+                        "value": "admin@example.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "admin123"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "e92407f3-cc38-4fdb-9431-a055ed185970",
+            "colId": "01c0d320-a464-4247-95bf-8425a19317c2",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:3000/api/users/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-17T04:03:13.698Z",
+            "modified": "2024-07-17T04:07:57.944Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "admin@example.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "admin123"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "f87cf1de-8de9-4de3-bb5d-62c305a137f6",
+            "colId": "01c0d320-a464-4247-95bf-8425a19317c2",
+            "containerId": "",
+            "name": "Current User",
+            "url": "http://localhost:3000/api/users/current",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-17T04:04:42.917Z",
+            "modified": "2024-07-17T04:08:07.575Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OTc0MjM4ZWU1YzQ1ZWI5NGQ2Y2I2ZiIsIm5hbWUiOiJhZG1pbiIsImlhdCI6MTcyMTE4OTA0OCwiZXhwIjoxNzIxMTkyNjQ4fQ.cAQ9leWPsV7IrqvNAFD6bz5ENXyUivyHAlKXFr8xgn8"
+            }
+        }
+    ],
+    "ref": "iW7EPpnnldYkVngmssTpt4VfSArsBwVcNW_4EqIhGWzgXOTbI8v_lKh96Q1v2kn4cymB6kgmZUKKb0HcmwnddA"
+}
